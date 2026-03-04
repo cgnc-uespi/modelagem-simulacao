@@ -1,0 +1,8 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# materiais — dados volumosos não versionados
+projetos/base_amostra_cad_201812/
+*dicionario*cadunico*.xlsx
+
