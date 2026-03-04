@@ -107,11 +107,23 @@ Ao aprender a simular um sistema como o CadÚnico, você desenvolve uma forma de
 
 ---
 
-## 8. Como aproveitar melhor a disciplina
+## 8. Materiais de Referência
+
+A pasta `ppt/` contém os slides das aulas em formato PowerPoint (`.pptx`). Use-os para:
+
+- **Estudar** o conteúdo apresentado em sala de forma visual e resumida;
+- **Revisar** antes de quizes e avaliações;
+- **Acompanhar** as aulas com o material de referência em mãos.
+
+Os arquivos cobrem todos os temas da disciplina: introdução, simulação manual, modelagem, tratamento de dados, ajuste de distribuições, verificação e validação, e dimensionamento de sistemas.
+
+---
+
+## 9. Como aproveitar melhor a disciplina
 
 - Participe das discussões sobre o CadÚnico e outros exemplos reais;
 - Faça os exercícios com seriedade: eles preparam você para o projeto;
-- Use as notas e os slides disponíveis como guia de estudo, não só na véspera de prova;
+- Use os slides em `ppt/` e as notas disponíveis como guia de estudo, não só na véspera de prova;
 - Se interessar, pense na disciplina como ponto de partida para um **TCC** ou projeto de pesquisa em simulação aplicada a serviços públicos.
 
 Se tiver dúvidas ou ideias de aplicação em outros sistemas (saúde, transporte, etc.), traga para a aula – a disciplina é um espaço ótimo para explorar esses temas.

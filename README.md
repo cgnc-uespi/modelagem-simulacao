@@ -8,9 +8,30 @@ Este diretório reúne materiais da disciplina, organizados para uso como profes
 
 ## Estrutura de Pastas
 
+- `ppt/` — Slides de referência em PowerPoint (.pptx) para estudo e suporte a quizes
 - `notas/` — Notas teóricas por aula e roteiros de slides em Markdown
 - `exercicios/` — Atividades práticas, guia do professor e sequência pedagógica
 - `projetos/` — Dados CadÚnico, scripts de EDA e propostas de projetos
+
+---
+
+## Slides de Referência (PowerPoint)
+
+Slides das aulas em formato `.pptx`, disponíveis para estudo e suporte a quizes:
+
+- `ppt/Sobre a Disciplina.pptx`
+- `ppt/Introdução à Modelagem e Simulação.pptx`
+- `ppt/Simulação Manual e Especificação de Modelos.pptx`
+- `ppt/ACD do supermercado.pptx`
+- `ppt/Abstração e Diagrama de Ciclos.pptx`
+- `ppt/Implementação Computacional do Modelo.pptx`
+- `ppt/Modelagem e Coleta de Dados.pptx`
+- `ppt/Tratamento de Dados.pptx`
+- `ppt/Ajuste de Dados.pptx`
+- `ppt/Teste de Aderência.pptx`
+- `ppt/Verificação e Validação de Modelos.pptx`
+- `ppt/Dimensionamento e Análise de Resultados - Parte I.pptx`
+- `ppt/Dimensionamento e Análise de Resultados - Parte II.pptx`
 
 ---
 
@@ -107,9 +128,10 @@ Dois arquivos ajudam a planejar o semestre:
 ## Como Usar
 
 1. **Planejamento:** Leia `exercicios/INDEX.md` para visão completa do curso
-2. **Preparar slides:** Abrir `notas/slides_*_cadunico.md` e criar `.pptx` correspondente
-3. **Estudar notas:** Arquivos `aula0X_*.md` como referência em sala
-4. **Aplicar atividades:** Usar `exercicios/atividades_*.md` conforme a semana (veja `exercicios/SEQUENCIA_PEDAGOGICA.md`)
-5. **Orientar projetos:** Pedir que grupos escolham tema em `projetos/projetos_cadunico.md`
+2. **Slides de referência:** Use `ppt/` para apresentar em sala e compartilhar com os alunos para estudo e quizes
+3. **Preparar slides:** Abrir `notas/slides_*_cadunico.md` e criar `.pptx` correspondente
+4. **Estudar notas:** Arquivos `aula0X_*.md` como referência em sala
+5. **Aplicar atividades:** Usar `exercicios/atividades_*.md` conforme a semana (veja `exercicios/SEQUENCIA_PEDAGOGICA.md`)
+6. **Orientar projetos:** Pedir que grupos escolham tema em `projetos/projetos_cadunico.md`
 
 Esse setup permite dar a disciplina inteira com um fio condutor único (CadÚnico), mantendo a flexibilidade para adaptar profundidade conforme o andamento da turma.
