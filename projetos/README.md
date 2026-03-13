@@ -1,42 +1,59 @@
 # Projetos de Modelagem e Simulação
 
-Este diretório contém scripts e materiais relacionados à análise exploratória (EDA) do CadÚnico.
-
-## Estrutura
-
-- `base_amostra_cad_201812/` - Pasta com arquivos CSV de amostra do CadÚnico (familia e pessoa, 2018-12).
-- `Dicionário_de_Dados_-_CadÚnico_-_Divulgação.xlsx` - Planilha com o dicionário de variáveis do CadÚnico.
-- `eda_cadunico.py` - Script principal para realizar análise exploratória geral no conjunto de dados do CadÚnico.
-- `eda_sexo.py` - Script focado na análise por sexo dos indivíduos.
-- `eda_output/` - Diretório de saída onde gráficos e resultados gerados pelos scripts são salvos.
-- `projetos_cadunico.md` - Documentação adicional ou notas de projetos (pode conter histórico, ideias ou anotações).
-
-## Instruções de Uso
-
-1. **Pré-requisitos**
-   - Python 3.10+
-   - Bibliotecas: pandas, matplotlib, seaborn, numpy (instaláveis via `requirements.txt` ou `pip install ...`).
-
-2. **Configurar o ambiente**
-   - Certifique-se de ter os CSVs de entrada em `base_amostra_cad_201812`.
-   - O dicionário de dados pode ser útil para entender as variáveis.
-
-3. **Executar análise geral**
-   ```bash
-   python eda_cadunico.py
-   ```
-   Isso produzirá gráficos e tabelas em `eda_output/`, incluindo distribuição de idade, renda, raça/cor, etc.
-
-4. **Executar análise por sexo**
-   ```bash
-   python eda_sexo.py
-   ```
-   Este script gera visualizações específicas comparando dados entre sexos e salvando os resultados em `eda_output/`.
-
-5. **Outras notas**
-   - Limpe a pasta `eda_output/` se quiser regenerar os arquivos do zero.
-   - Atualize os scripts conforme novas necessidades de análise.
+Este diretório reúne os projetos práticos desenvolvidos na disciplina de **Modelagem e Simulação de Eventos Discretos**.
+Cada subpasta corresponde a um contexto/domínio de aplicação distinto.
 
 ---
 
-Este README deve ser mantido atualizado conforme novas ferramentas ou dados sejam adicionados aos projetos.
+## Estrutura
+
+```
+projetos/
+├── Cadúnico/                         # Projetos com dados do Cadastro Único
+│   ├── base_amostra_cad_201812/      # CSVs amostrais (família e pessoa, dez/2018)
+│   ├── eda_cadunico.ipynb            # Análise exploratória geral do CadÚnico
+│   ├── eda_sexo.ipynb                # Análise exploratória por sexo
+│   └── projetos_cadunico.md          # Propostas de projetos de simulação – CadÚnico
+│
+└── Supermercado/                     # Projeto de coleta e análise em supermercado
+    └── Coleta_de_dados_no_supermercado.ipynb
+```
+
+---
+
+## Projetos
+
+### Cadúnico
+
+Análise exploratória e propostas de simulação aplicadas ao **Cadastro Único para Programas Sociais**.
+
+- **Base de dados:** Microdados amostrais do CadÚnico (dados.gov.br – dez/2018).
+- **Notebooks:**
+  - `eda_cadunico.ipynb` – distribuição de idade, renda, raça/cor e outras variáveis do conjunto completo.
+  - `eda_sexo.ipynb` – comparações e visualizações específicas por sexo.
+- **Propostas de simulação** (`projetos_cadunico.md`): dimensionamento de guichês, reforço em horários de pico, fila única vs filas por serviço, impacto de campanhas, abandono de fila, atendimento multicanal.
+
+**Pré-requisitos**
+
+```bash
+pip install pandas matplotlib seaborn numpy jupyter
+```
+
+### Supermercado
+
+Coleta e análise de dados de atendimento em ambiente de supermercado, com foco na caracterização empírica das chegadas e dos tempos de serviço para alimentar modelos de simulação.
+
+- **Notebook:** `Coleta_de_dados_no_supermercado.ipynb`
+
+---
+
+## Como executar
+
+1. Clone o repositório e acesse a pasta do projeto desejado.
+2. Instale as dependências (veja os pré-requisitos de cada projeto).
+3. Abra o notebook com `jupyter notebook` ou `jupyter lab`.
+4. Execute as células em ordem.
+
+---
+
+> Este README deve ser mantido atualizado conforme novos projetos ou subpastas sejam adicionados.
